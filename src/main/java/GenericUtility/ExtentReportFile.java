@@ -19,7 +19,7 @@ public void onstart(ITestContext context) {
 	htmlReport.config().setDocumentTitle("SDET-41 hms report");
 	htmlReport.config().setTheme(Theme.DARK);
 	htmlReport.config().setReportName("selenium execution report");
-	htmlReport.config().setReportName("selenium execution report");
+//	htmlReport.config().setReportName("selenium execution report");
 	
 	report=new ExtentReports();
 	report.attachReporter(htmlReport);

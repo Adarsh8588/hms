@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practies.P3">
+      <class name="JavaScriptScrollBy.ScrollAndClickElement">
         <methods>
-          <include name="p3"/>
+          <include name="elementLocation"/>
         </methods>
-      </class> <!-- practies.P3 -->
+      </class> <!-- JavaScriptScrollBy.ScrollAndClickElement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

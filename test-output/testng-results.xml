@@ -2,21 +2,46 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="109" started-at="2022-10-30T00:11:36 IST" finished-at="2022-10-30T00:11:36 IST">
+  <suite name="Default suite" duration-ms="30762" started-at="2022-12-15T23:57:38 IST" finished-at="2022-12-15T23:58:09 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="109" started-at="2022-10-30T00:11:36 IST" finished-at="2022-10-30T00:11:36 IST">
-      <class name="practies.P3">
-        <test-method status="FAIL" signature="p3()[pri:0, instance:practies.P3@3dfc5fb8]" name="p3" duration-ms="55" started-at="2022-10-30T00:11:36 IST" finished-at="2022-10-30T00:11:36 IST">
-          <exception class="java.io.UnsupportedEncodingException">
+    <test name="Default test" duration-ms="30762" started-at="2022-12-15T23:57:38 IST" finished-at="2022-12-15T23:58:09 IST">
+      <class name="JavaScriptScrollBy.ScrollAndClickElement">
+        <test-method status="FAIL" signature="elementLocation()[pri:0, instance:JavaScriptScrollBy.ScrollAndClickElement@42f93a98]" name="elementLocation" duration-ms="30609" started-at="2022-12-15T23:57:38 IST" finished-at="2022-12-15T23:58:09 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[adarsh]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-08FKUO3', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Smile\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32c82223fb12403d78e5d453d0541e61]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.UnsupportedEncodingException: adarsh
-at java.lang.StringCoding.encode(Unknown Source)
-at java.lang.String.getBytes(Unknown Source)
-at practies.P3.p3(P3.java:15)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-08FKUO3', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Smile\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32c82223fb12403d78e5d453d0541e61
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at JavaScriptScrollBy.ScrollAndClickElement.elementLocation(ScrollAndClickElement.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -47,11 +72,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.io.UnsupportedEncodingException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- p3 -->
-      </class> <!-- practies.P3 -->
+        </test-method> <!-- elementLocation -->
+      </class> <!-- JavaScriptScrollBy.ScrollAndClickElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

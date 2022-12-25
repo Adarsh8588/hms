@@ -19,6 +19,7 @@ public class ReadTheDataFomDataBase {
 		Statement stat = conn.createStatement();
 		String query = "select * from HMS;";
 		ResultSet result = stat.executeQuery(query);
+		
 		while(result.next())
 		{
 			System.out.println(result.getString(1)+"   "+result.getString(2)+"   "+result.getString(3));
